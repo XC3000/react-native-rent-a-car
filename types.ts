@@ -3,6 +3,6 @@ export type RootStackParamList = {
   Map: undefined;
   Saved: undefined;
   Setting: undefined;
-  Info: undefined;
+  Info: {id: number};
   HomeScreen: undefined;
 };
